@@ -1,0 +1,15 @@
+{
+  "name": "tanks-io",
+  "version": "1.0.0",
+  "description": "tanks-io",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BG",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.4.1"
+  }
+}

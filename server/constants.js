@@ -1,0 +1,16 @@
+const FRAME_RATE = 30;
+
+const ANGULAR_SPEED = Math.PI / 20 * (30 / FRAME_RATE);
+const SPEED = 300 / FRAME_RATE;
+const REVERSE_SPEED = 90 / FRAME_RATE;
+const RADIUS = 30;
+const BULLET_SPEED = 600 / FRAME_RATE;
+
+module.exports = {
+  FRAME_RATE,
+  ANGULAR_SPEED, 
+  SPEED,
+  REVERSE_SPEED,
+  RADIUS,
+  BULLET_SPEED
+}
