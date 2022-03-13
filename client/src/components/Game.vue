@@ -9,7 +9,7 @@
 import io from 'socket.io-client';
 const BG_COLOR = '#F0F0F0';
 
-const socket = io('http://localhost:3000');
+const socket = io('https://tanks-socket.herokuapp.com/');
 let canvas, ctx;
 
 export default {

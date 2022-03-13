@@ -6,7 +6,7 @@ const clientRooms = {};
 
 const io = require('socket.io')({
   cors: {
-    origin: "http://localhost:8080"
+    origin: "https://tanks.bruinclubs.com"
   }
 })
 
